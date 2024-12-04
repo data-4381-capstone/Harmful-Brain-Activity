@@ -77,7 +77,7 @@ The overview notebook was meant to serve as a project overview to help explain m
   
 **PCA with Time Dimension:**  
   
-Uses PCA to reduce rows of EEGs instead of columns. Individual channels were pulled from random EEGs and combined to form a channel matrix to perform PCA with. I've paused work with the notebooks for now as I don't yet understand the process in them. I intend to return to them later.  
+Uses PCA to reduce rows of EEGs instead of columns. Individual channels were pulled from random sub EEGs and combined to form a channel matrix to perform PCA with. I've paused work with the notebooks for now as I don't yet understand the process in them. I intend to return to them later.  
   
 **ICA-PCA Attempts:**  
   

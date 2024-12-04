@@ -88,6 +88,8 @@ An important note: My understanding is that ICA is typically used to deconstruct
 **Generating Electrode Matrices:**  
   
 This is the notebook that I used to generate the channel matrices I mentioned above. There are 20 of these. One for each channel. There are 12k individual signals for the specified channel in each channel matrix. The 12k channels were pulled at from random sub EEGs. Sub EEGs are 50 seconds long and have 10k rows of data. The channel matrices are then transposed so that the time dimension is the columns of the matrix. Columns are then reduced with PCA to get an understanding of how much that dimension could be reduced.  
+
+There are 5 of these notebooks. I split notebooks up by EEG chain. There are Left and Right Parasagittal, Left and Right Lateral, and Central notebooks.  
   
 The channel matrices aren't loading right now. I don't know why. The kernel dies when I try to load them. I'll need to figure this out.  
   
